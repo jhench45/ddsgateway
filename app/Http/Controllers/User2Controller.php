@@ -33,6 +33,7 @@ use ApiResponser;
     //
     return $this->successResponse($this->user2Service->obtainUsers2());
     }
+    
     public function add(Request $request )
     {
         return $this->successResponse($this->user2Service->createUser2($request->all(),Response::HTTP_CREATED));

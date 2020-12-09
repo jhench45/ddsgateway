@@ -5,7 +5,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response; 
 use App\Models\User;
 use App\Traits\ApiResponser;
-//dili sior
+
 use App\Services\User1Service;
 
 Class User1Controller extends Controller {
