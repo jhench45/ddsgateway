@@ -56,7 +56,7 @@ class User1Service{
      * Remove an existing user
      * @return Illuminate\Http\Response
      */
-    public function delete($id)
+    public function deleteUser1($id)
     {
         return $this->performRequest('DELETE', "/users/{$id}");
     }
